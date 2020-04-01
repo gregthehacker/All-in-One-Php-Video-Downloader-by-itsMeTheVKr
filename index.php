@@ -101,14 +101,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <tr>
                             <td>
                      
-                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="https://convm.000webhostapp.com/apis/d/?vkru=<?= htmlspecialchars($url) ?>&vkrf=mp3"></iframe>
-                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="https://convm.000webhostapp.com/apis/d/?vkru=<?= htmlspecialchars($url) ?>&vkrf=m4a"></iframe>
-                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="https://convm.000webhostapp.com/apis/d/?vkru=<?= htmlspecialchars($url) ?>&vkrf=360"></iframe>
-                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="https://convm.000webhostapp.com/apis/d/?vkru=<?= htmlspecialchars($url) ?>&vkrf=480"></iframe>
-                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="https://convm.000webhostapp.com/apis/d/?vkru=<?= htmlspecialchars($url) ?>&vkrf=720"></iframe>
-                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="https://convm.000webhostapp.com/apis/d/?vkru=<?= htmlspecialchars($url) ?>&vkrf=1080"></iframe>
-                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="https://convm.000webhostapp.com/apis/d/?vkru=<?= htmlspecialchars($url) ?>&vkrf=4k"></iframe>
-                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="https://convm.000webhostapp.com/apis/d/?vkru=<?= htmlspecialchars($url) ?>&vkrf=8k"></iframe>
+                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=<?= htmlspecialchars($url) ?>&f=mp3"></iframe>
+                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=<?= htmlspecialchars($url) ?>&f=m4a"></iframe>
+                   <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=<?= htmlspecialchars($url) ?>&f=360"></iframe>
+                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=<?= htmlspecialchars($url) ?>&f=480"></iframe>
+                   <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=<?= htmlspecialchars($url) ?>&f=720"></iframe>
+                  <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=<?= htmlspecialchars($url) ?>&f=1080"></iframe>
+                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=<?= htmlspecialchars($url) ?>&f=4k"></iframe>
+                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=<?= htmlspecialchars($url) ?>&f=8k"></iframe>
                     
                             </td>
                       </tr>
