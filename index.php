@@ -99,17 +99,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <tbody>
                 <?php if ($isSuccessResponse): ?>
                         <tr>
-                            <td>
-                     
-                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=<?= htmlspecialchars($url) ?>&f=mp3"></iframe>
-                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=<?= htmlspecialchars($url) ?>&f=m4a"></iframe>
-                   <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=<?= htmlspecialchars($url) ?>&f=360"></iframe>
-                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=<?= htmlspecialchars($url) ?>&f=480"></iframe>
-                   <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=<?= htmlspecialchars($url) ?>&f=720"></iframe>
-                  <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=<?= htmlspecialchars($url) ?>&f=1080"></iframe>
-                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=<?= htmlspecialchars($url) ?>&f=4k"></iframe>
-                    <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=<?= htmlspecialchars($url) ?>&f=8k"></iframe>
-                    
+                            <td><iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="https://dlmyvid.000webhostapp.com/apis/d/?u=<?= htmlspecialchars($url) ?>&f=mp3"></iframe>
+                                <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="https://dlmyvid.000webhostapp.com/apis/d/?u=<?= htmlspecialchars($url) ?>&f=360"></iframe>
+                                <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="https://dlmyvid.000webhostapp.com/apis/d/?u=<?= htmlspecialchars($url) ?>&f=720"></iframe>
+                                <br><br>
+                                 <button class="btn btn-primary btn-block">More Download Format </button>
+                
+                                
                             </td>
                       </tr>
                       <tr>
