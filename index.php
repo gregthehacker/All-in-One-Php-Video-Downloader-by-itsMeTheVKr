@@ -103,7 +103,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="https://dlmyvid.000webhostapp.com/apis/d/?u=<?= htmlspecialchars($url) ?>&f=360"></iframe>
                                 <iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="https://dlmyvid.000webhostapp.com/apis/d/?u=<?= htmlspecialchars($url) ?>&f=720"></iframe>
                                 <br><br>
-                                 <button class="btn btn-primary btn-block">More Download Format </button>
+                               <a href="http://dlmyvid.000webhostapp.com/@download/?url=<?= htmlspecialchars($url) ?>">  <button class="btn btn-primary btn-block">More Download Format </button></a>
                 
                                 
                             </td>
